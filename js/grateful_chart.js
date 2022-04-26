@@ -1,15 +1,3 @@
-$(window).resize(function() {
-    if(this.resizeTO) clearTimeout(this.resizeTO);
-    this.resizeTO = setTimeout(function() {
-        $(this).trigger('resizeEnd');
-    }, 500);
-});
-
-//redraw graph when window resize is completed  
-$(window).on('resizeEnd', function() {
-    drawBasic();
-});
-
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBasic);
 
@@ -48,4 +36,16 @@ function drawBasic() {
 
     chart.draw(data, options);
 }
+
+$(window).resize(function() {
+    if(this.resizeTO) clearTimeout(this.resizeTO);
+    this.resizeTO = setTimeout(function() {
+        $(this).trigger('resizeEnd');
+    }, 500);
+});
+
+//redraw graph when window resize is completed  
+$(window).on('resizeEnd', function() {
+    drawBasic();
+});
 
