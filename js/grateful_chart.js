@@ -37,6 +37,7 @@ function drawBasic() {
     chart.draw(data, options);
 }
 
+/*
 $(window).resize(function() {
     if(this.resizeTO) clearTimeout(this.resizeTO);
     this.resizeTO = setTimeout(function() {
@@ -48,4 +49,4 @@ $(window).resize(function() {
 $(window).on('resizeEnd', function() {
     drawBasic();
 });
-
+*/
