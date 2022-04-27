@@ -18,7 +18,7 @@ var dataValues = [{DateScore: '2020-10', Sakura: 212, B: 170, Bomberlux: 0, Steq
  {DateScore: '2022-01', Sakura: 71, B: 194, Bomberlux: 150, Steqs: 174, Muriam: 122, Mo: 0, Rickard: 0, Embo: 20, Drew: 0, Broad: 0, Ben: 0, }, 
  {DateScore: '2022-02', Sakura: 52, B: 132, Bomberlux: 119, Steqs: 52, Muriam: 69, Mo: 3, Rickard: 0, Embo: 11, Drew: 0, Broad: 0, Ben: 0, },
  {DateScore: '2022-03', Sakura: 23, B: 139, Bomberlux: 108, Steqs: 150, Muriam: 76, Mo: 0, Rickard: 0, Embo: 27, Drew: 0, Broad: 0, Ben: 0, },
- {DateScore: '2022-04', Sakura: 0, B: 220, Bomberlux: 108, Steqs: 199, Muriam: 69, Mo: 8, Rickard: 15, Embo: 85, Drew: 0, Broad: 0, Ben: 0, }];
+ {DateScore: '2022-04', Sakura: 0, B: 258, Bomberlux: 179, Steqs: 238, Muriam: 78, Mo: 8, Rickard: 15, Embo: 88, Drew: 0, Broad: 0, Ben: 0, }];
 
 var Data = {
     displayed: [...dataValues],
