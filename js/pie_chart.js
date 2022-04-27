@@ -5,14 +5,14 @@ function drawChart() {
 
 var data = google.visualization.arrayToDataTable([
   ['Activity', 'Messages sent'],
-  ['B',        10099],
+  ['B',        10135],
   ['Sakura',    9754],
-  ['Bomberlux', 9114],
-  ['Steqs',     6120],
-  ['Muriam',    5686],
+  ['Bomberlux', 9180],
+  ['Steqs',     6158],
+  ['Muriam',    5695],
   ['Mo',        1841],
   ['Rickard',   1459],
-  ['Embo',       486],
+  ['Embo',       489],
   ['Drew',        99],
   ['Broad',       78],
   ['Ben',         30]
